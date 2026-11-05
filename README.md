@@ -9,8 +9,8 @@
 
 This project is the **second lab** in my FortiGate lab series. Building upon the network segmentation and stateful firewall rules established in Lab 1 [Fortigate DMZ and Segmentation Lab](https://github.com/EspoirBlack/fortigate-dmz-segmentation-lab), this project demonstrates how to configure a Next-Generation Firewall (NGFW) for advanced threat detection.
 
-The core objective was to move security monitoring beyond basic Layer 4 (port-based) filtering to **Layer 7 (Application Control)**, while configuring the firewall to capture aggressive reconnaissance traffic (Nmap scans). This proves how an enterprise security team can gain deep visibility into attacker footprints and block evasive malware that tries to hide on standard allowed ports.
----
+The core objective was to move security monitoring beyond basic Layer 4 (port-based) filtering to *Layer 7 (Application Control)*, while configuring the firewall to capture aggressive reconnaissance traffic (Nmap scans). This proves how an enterprise security team can gain deep visibility into attacker footprints and block evasive malware that tries to hide on standard allowed ports.
+
 ## Network Architecture & Topology
 
 The lab environment is structured with distinct security zones to simulate an enterprise network:
