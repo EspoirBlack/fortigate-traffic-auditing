@@ -69,10 +69,14 @@ The FortiGate dashboard and FortiView visualize the Nmap scan, flagging the Kali
 `L7 vs L4 Inspection`: Seeing the FortiGate identify VNC traffic (which can run on various ports) and Telnet traffic proved exactly why Application Control is essential. It identifies the intent of the traffic, not just the port number.
 
 Security Engine Synergy: A stateful firewall allows the Nmap scan to work (because the LAN initiated it), but Application Control logs and categorizes it. This synergy between features provides immense visibility without breaking functionality.
+
 ---
+
 ## Author
+
 Mumbere Espoir
 
 Focused on Network Security, Firewalls, and Infrastructure Hardening
+
 ---
 *Disclaimer: This project was built in an isolated virtual lab for educational and defensive security purposes only.*
